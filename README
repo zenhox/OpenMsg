@@ -1,0 +1,6 @@
+# Introduction of OpenMsg
+
+	OpenMsg is an opensource social app messages handler. It can do some helpful
+	functions such as auto reply, auto group message sending, and so on.
+	In the past, we do group message sending by using some kinds of web api or Restful api.
+	But we find it easy to freeze your account. So we need a method to simulate human's action.
