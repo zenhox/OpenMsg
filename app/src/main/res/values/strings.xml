@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">OpenMsg</string>
-    <string name="title_activity_text_edit">TextEditActivity</string>
+    <string name="app_name">笑笑爱群发</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_text">笑笑爱群发</string>
 </resources>
