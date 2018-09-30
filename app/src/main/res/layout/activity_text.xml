@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextActivity">
+
+    <TextView
+        android:id="@+id/qq_group_msg_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:onClick="onClick"
+        android:text="QQ消息群发"
+        android:textColor="#ffffffff"
+        android:textSize="30sp" />
+
+    <TextView
+    android:id="@+id/wechat_group_msg_btn"
+    android:onClick="onClick"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_below="@id/qq_group_msg_btn"
+    android:text="微信消息群发"
+    android:textColor="#ffffffff"
+    android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_edit_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/wechat_group_msg_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:onClick="onClick"
+        android:text="TIM消息群发"
+        android:textColor="#ffffffff"
+        android:textSize="30sp" />
+</RelativeLayout>
